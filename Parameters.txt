@@ -1,0 +1,43 @@
+#Include#
+
+incavsp=0 # include international aviation and shipping (enter 1 for include or 0 for exclude)
+
+#Avoid#
+
+caravoid30=12 # percentage of car km avoided in 2030 (suggested range 0-15)
+planeavoid30=20 # percentage of plane emissions avoided in 2030 (suggested range 0-40)
+vanavoid30=5 # percentage of van km avoided in 2030 (suggested range 0-12)
+truckavoid30=3 # percentage of truck km avoided in 2030 (suggested range 0-6)
+
+#Shift#
+
+car2walk30=5 # percentage shift of car km to walking in 2030 (suggested range 0-5)
+car2bike30=5 # percentage shift of car km to bikes in 2030 (suggested range 0-6)
+car2emobil30=20 # percentage shift of car km to e-mobility (e-bikes & e-scooters) in 2030 (suggested range 0-25)
+car2bus30=20 # percentage shift of car km to bus in 2030 (suggested range 0-30)
+car2train30=8 # percentage shift of car km to train in 2030 (suggested range 0-10) 
+van2ebike30=15 # percentage shift of van km to e-mobility in 2030 (suggested range 0-20)
+truck2rail30=3 # percentage shift of truck km to train in 2030 (suggested range 0-5)
+
+#Fleets#
+
+newicecar=2025 # year to end sale of ICE cars from (suggested range 2022-2030)
+endicecar=2035 # year to ban ICE cars on roads from (suggested range 2031-2040)
+cardec=40 # percentage decline in size of car fleet by 2050 (suggested range 0-40)
+newicevan=2025 # year to end sale of ICE vans from (suggested range 2022-2030)
+endicevan=2035 # year to ban ICE vans on roads from (suggested range 2031-2040)
+vandec=15 # percentage decline in size of van fleet by 2050 (suggested range 0-20)
+newicetruck=2030 # year to end sale of ICE trucks from (suggested range 2026-2035)
+endicetruck=2040 # year to ban ICE trucks on roads from (suggested range 2036-2045)
+truckdec=5 # percentage decline in size of truck fleet by 2050 (suggested range 0-5)
+endicebus=2035 # year to ban ICE buses from roads (suggested range 2030-2035)
+railelec=2045 # year to have all-electric rail fleet and network by (suggested range 2040-2050)
+shipping=2050 # year for shipping to be decarbonised by (suggested range 2045-2050)
+aviation=2050 # year for aviation to be decarbonised by (suggested range 2045-2050)
+
+#Improve#
+
+careff30=10 # percentage improvment in car efficiency in 2030 (suggested range 0-15)
+planeeff30=0 # percentage improvement in plane efficiency in 2030 (suggested range 0-15)
+vaneff30=5 # percentage improvement in van efficiency in 2030 (suggested range 0-10)
+truckeff30=2 # percentage improvement in truck efficiency in 2030 (suggested range 0-5)
